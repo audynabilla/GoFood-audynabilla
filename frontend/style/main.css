@@ -1,0 +1,144 @@
+/* navbar */
+.navbar{
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 1440px;
+    height: 65px;
+    background: #ABDA9B;
+}
+.search{
+    box-sizing: border-box;
+    width: 238px !important;
+    height: 35px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    text-decoration: none;
+    outline: none;
+    margin-top: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #000000;
+
+}
+.btn-search{
+    box-sizing: border-box;
+    width: 42px;
+    height: 35px;
+    background: #FFFFFF;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 0px 4px 4px 0px;
+    margin-left: -20px;
+}
+.fa-circle-user{
+    font-size: 30px;
+}
+/* tutup navbar */
+
+/* gopay */
+.gopay{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    width: 1200px;
+    height: 200px;
+    background: #00AED6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.btn-gopaysaldo{
+    margin-left: 65px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 300px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+.isi-saldo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #030303;
+}
+.riwayat{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #00AC14;
+}
+.buy{
+    margin-left: 209px;
+}
+.add{
+    margin-left: 139px;
+}
+.eskplor{
+    margin-left: 144px;
+}
+
+.tag{
+    transition: all 0.2s ease;
+}
+
+.tag:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.gopaytag{
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.jasa{
+    margin-top: 66px;
+    margin-left: 198px;
+}
+.namajasa{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+
+    color: #000000;
+}
+.icon{
+    margin-left: 73px;
+}
+
+.promo{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 66px;
+}
+.promo-nama{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+.promo-kata{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* tutup gopay */

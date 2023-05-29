@@ -1,0 +1,263 @@
+.toko{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.kfc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.kfc span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.garis{
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.gimana{
+    margin-top: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.rating{
+	position: absolute;
+	top:45%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(180deg);
+	display: flex;
+}
+.rating input{
+	display: none;
+}
+.rating label{
+	display: block;
+	cursor: pointer;
+	width: 50px;
+	/*background: #ccc;*/
+}
+.rating label:before{
+	content:'\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	font-size: 50px;
+	color: #101010;
+}
+.rating label:after{
+	content:'\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 50px;
+	color: #fffa00;
+	top:0;
+	opacity: 0;
+	transition: 0.2s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+	opacity: 1;
+}
+
+
+.garis1{
+    margin-top: 130px;
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.apa{
+    margin-bottom: 60px;
+    margin-top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.pilih{
+    margin-top: 30px;
+}
+
+.varian{
+    margin-left: 165px;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 280px;
+    height: 60px;
+    background: #E4E4E4;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.varian:hover{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #DDD166;
+}
+
+.varian1{
+    margin-left: 135px;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 280px;
+    height: 60px;
+    background: #E4E4E4;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.varian1:hover{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #DDD166;
+}
+
+.varian2{
+    margin-left: 353px;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 280px;
+    height: 60px;
+    background: #E4E4E4;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.varian2:hover{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #DDD166;
+}
+
+.varian3{
+    margin-left: 175px;
+    text-decoration: none;
+    padding-top: 12px;
+    width: 280px;
+    height: 60px;
+    background: #E4E4E4;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.varian3:hover{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #DDD166;
+}
+
+.varian4{
+    margin-top: 30px;
+    width: 280px !important;
+    height: 60px !important;
+    background: #E4E4E4;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.varian4:hover{
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #DDD166;
+}
+
+.pepatah{
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.kata{
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #000000 !important;
+}
+
+.btn-submit{
+    margin-top: 80px;
+    width: 1200px;
+    height: 70px;
+    background: #00B613;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.syarat{
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+
+    color: #000000;
+}

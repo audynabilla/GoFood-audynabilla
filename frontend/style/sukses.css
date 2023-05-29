@@ -1,0 +1,66 @@
+.sukses{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.detil{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+
+    color: #000000;
+}
+
+.fa-message{
+    font-size: 25px;
+    margin-left: 120px;
+    transition: all 0.2s ease;
+}
+.fa-phone{
+    font-size: 25px;
+    margin-left: 40px;
+    transition: all 0.2s ease;
+}
+
+.fa-message:hover{
+    font-size: 25px;
+    margin-left: 120px;
+    color: #FF021C;
+}
+.fa-phone:hover{
+    font-size: 25px;
+    margin-left: 40px;
+    color: #FF021C;
+}
+
+.nama{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000
+}
+
+.nama span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #959595;
+}
+
+.btn-submit{
+    width: 372px;
+    height: 50px;
+    background: #00B613;
+    border-radius: 8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+}

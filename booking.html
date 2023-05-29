@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="frontend/style/booking.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,700&family=Nunito+Sans:wght@200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+
+    <title>GoFood</title>
+  </head>
+  <body>
+    <center class="brand">
+        <img src="frontend/img/GoFood.png">
+    </center>
+
+    <section class="booking">
+        <h5 class="kfc">KFC , Soedirman Pekanbaru</h5>
+        <img src="frontend/img/like.png" class="superpartner">
+        <div class="form-inline mt-4">
+            <img src="frontend/img/pesan.png">
+            <h5 class="pesan">Pesan antar <br> 
+                <span>Tiba 31 min</span>
+            </h5>
+        </div>
+        <div class="lokasi form-inline">
+            <p class="pengantaran">
+                Alamat Pengantaran <br>
+                <span>Jl. Air Dingin Gg.Taqwa</span>
+            </p>
+            <a href="#" role="button" class="ml-auto">
+                <button type="button" class="btn btn-ganti">Ganti Alamat</button>
+            </a>
+        </div>
+        <div class="form-group form-inline mt-5">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" class="form-text alamat" placeholder="Isi Detail Alamat">
+            <i class="fa-solid fa-pen ml-5"></i>
+            <input type="text" class="form-text catatan" placeholder="Ubah Catatan">
+        </div>
+    </section>
+    <hr class="garis">
+
+    <!-- pesanan -->
+    <section class="pesanan form-inline">
+        <div class="produk">
+            <h5>Burger Party 3</h5>
+            <p>3 Pcs Chicken + 3 OR Burger Single + 3 Mocha Float</p>
+            <h5>Rp 159.500</h5>
+            <div class="form-inline mem">
+                <i class="fa-solid fa-file-pen"></i>
+                <input type="text" class="form-text memo" placeholder="Catatan Pesanan">
+            </div>
+        </div>
+        <div class="makan ml-auto">
+            <img src="frontend/img/burger.png" >
+            <div class="form text-center">
+                <button type="button" role="button" class="btn btn-kurang">-</button>
+                <input type="text" role="text" placeholder="1" class="jumlah">
+                <button type="button" role="button" class="btn btn-tambah">+</button>
+            </div>
+        </div>
+    </section>
+    <!-- tutup pesanan -->
+
+    <!-- pembayaran -->
+    <section class="pembayaran">
+        <h5>Ringkasan Pembayaran</h5>
+        <div class="form-inline mt-3">
+            <p class="harga">
+                Harga <br>
+                Ongkir <br>
+                Biaya layanan & lainnya <br>
+                <br>
+                <span>Total</span>
+            </p>
+            <p class="biaya ml-auto">
+                Rp 159.500 <br>
+                Rp   15.000 <br>
+                Rp    11.500 <br>
+                <br>
+                <span>Rp 186.000</span>
+            </p>
+        </div>
+    </section>
+    <!-- tutup pembayaran -->
+    <div class="form-inline tunai">
+        <img src="frontend/img/tunai.png">
+        <p class="cod">Tunai <br>
+            Rp 186.000</p>
+    </div>
+
+    <center class="mt-5">
+        <a href="sukses.html" role="button">
+            <button type="button" class="btn btn-booking">
+                Pesan & Antar Sekarang <br>
+                <span>Bakal dapat 20xp</span>
+            </button>
+        </a>
+    </center>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/f82c2d8a26.js" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+  </body>
+</html>

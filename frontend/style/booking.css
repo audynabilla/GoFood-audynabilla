@@ -1,0 +1,328 @@
+.brand{
+    margin-top: 15px;
+}
+
+.booking{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.kfc{
+    margin-top: 143px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #000000;
+}
+
+.pesan{
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+}
+
+.pesan span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.pengantaran{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.pengantaran span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.btn-ganti{
+    width: 215px;
+    height: 60px;
+    background: #00B613;
+    transition: all 0.2s ease;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-ganti:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.alamat{
+    text-decoration: none;
+    outline: none;
+    margin-left: -15px;
+    padding-left: 15px;
+    border: none;
+    width: 483px;
+    height: 45px;
+    background: #E3E1E1;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.catatan{
+    text-decoration: none;
+    outline: none;
+    margin-left: -15px;
+    padding-left: 15px;
+    border: none;
+    width: 483px;
+    height: 45px;
+    background: #E3E1E1;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.fa-location-dot{
+    margin: 0;
+    margin-bottom: -2px !important;
+    padding-top: 12px;
+    font-size: 20px;
+    margin-top: 3px !important;
+    background-color: #E3E1E1;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.fa-pen{
+    margin: 0;
+    margin-bottom: -2px !important;
+    padding-top: 12px;
+    font-size: 20px;
+    margin-top: 3px !important;
+    background-color: #E3E1E1;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.garis{
+    margin-top: 80px;
+    width: 1440px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.pesanan{
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.produk h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000000;
+}
+
+.produk p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #636363;
+}
+
+.mem{
+    margin-top: 80px;
+}
+
+
+.fa-file-pen{
+    margin: 0;
+    margin-bottom: -2px !important;
+    padding-top: 12px;
+    font-size: 20px;
+    margin-top: 3px !important;
+    background-color: #E3E1E1;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+
+.memo{
+    text-decoration: none;
+    outline: none;
+    margin-left: -15px;
+    padding-left: 15px;
+    border: none;
+    width: 310px;
+    height: 45px;
+    background: #E3E1E1;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.btn-kurang{
+    padding-top: -5px !important;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    background: #D9D9D9;
+}
+
+.jumlah{
+    outline: none;
+    border: none;
+    width: 52px;
+    height: 30px;
+    background: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.btn-tambah{
+    text-align: center;
+    padding-top: -5px;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    background: #D9D9D9;
+}
+
+.pembayaran{
+    margin-top: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    width: 1200px;
+    height: 319px;
+    background: #D9D9D9;
+}
+
+.pembayaran h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+
+.harga{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.harga span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+
+.biaya{
+    text-align: right;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.biaya span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+
+.tunai{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.cod{
+    margin-left: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.btn-booking{
+    width: 1200px;
+    height: 70px;
+    background: #00B613;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+
+    color: #323131;
+}
+.btn-booking span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+    color: #323131;
+
+}
+
+

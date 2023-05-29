@@ -1,0 +1,84 @@
+.brand{
+    margin-top: 15px;
+}
+
+.iklan{
+    margin-top: 90px ;
+    margin-left: 120px;
+}
+
+.lokasi{
+    margin-top: 55px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.lokasi h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.lokasi p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+
+}
+.search{
+    padding-left: 20px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    width: 1200px;
+    height: 45px;
+    background: #E7E7E7;
+    border-radius: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+/* varian */
+.varian{
+    margin-top: 85px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.food{
+    margin-left: 25px;
+    transition: all 0.2s ease;
+}
+.food1{
+    transition: all 0.2s ease;
+}
+.food1:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.food:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/* tutup varian */
+
+/* alasan */
+.alasan{
+    margin-top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+
+    color: #000000;
+}
+.alasanimg{
+    margin-top: 40px;
+}
+/* tutup alasan */
